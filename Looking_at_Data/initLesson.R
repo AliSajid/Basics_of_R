@@ -11,7 +11,7 @@ swirl_options(swirl_logging = TRUE)
 
 # Path to data
 .datapath <- file.path(.get_course_path(),
-                      'Module_4', '07_Looking_at_Data',
+                      'Basics_of_R', 'Looking_at_Data',
                       'plant-data.txt')
 # Read in data
 plants <- read.csv(.datapath, strip.white=TRUE, na.strings="")
